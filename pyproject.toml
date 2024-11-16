@@ -1,0 +1,18 @@
+[project]
+name = "mimo-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "deepmimo>=1.0",
+    "deepmimov3>=0.2.8",
+    "jupyter>=1.1.1",
+    "keras>=3.6.0",
+    "tensorflow>=2.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
